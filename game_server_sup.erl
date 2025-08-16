@@ -1,0 +1,32 @@
+%%%-----------------------------------
+%%% @Module  : game_server_sup
+%%% @Author  : smyx
+%%% @Created : 2013.06.30
+%%% @Description: 游戏服务器监控树
+%%%-----------------------------------
+-module(game_server_sup).
+-behaviour(supervisor).
+-export([start_link/0, start_child/1, start_child/2, start_child/3, init/1]).
+
+start_link() ->
+	supervisor:start_link({local,?MODULE}, ?MODULE, []).
+
+start_child(Mod) ->
+    start_child(Mod, []).
+
+start_child(Mod, Args) ->
+    {ok, _} = supervisor:start_child(?MODULE,
+                                     {Mod, {Mod, start_link, Args},
+                                      transient, 100, worker, [Mod]}),
+    ok.
+
+start_child(Id, Mod, Args) ->
+    {ok, _} = supervisor:start_child(?MODULE,
+                                     {Id, {Mod, start_link, Args},
+                                      transient, 100, worker, [Mod]}),
+    ok.
+
+init([]) -> 
+%	{ok, {{one_for_one,3,10},[]}}. 
+	{ok, {{one_for_one,5,10},[]}}. 
+
