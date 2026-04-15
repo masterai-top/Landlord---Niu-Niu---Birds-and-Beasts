@@ -1,4 +1,6 @@
-# 🎲 斗地主+牛牛+飞禽走兽 | 棋牌游戏大厅合集 | 完整源码
+# 🎲 Card Game Platform | 棋牌游戏平台 | 棋牌遊戲平台| 斗地主+牛牛+飞禽走兽 | 棋牌游戏大厅合集 | 完整源码
+🔥 Multiplayer Card Game Server | 多人对战平台 | 多人對戰平台  
+👉 Landlord + Niuniu + Birds & Beasts | Club System | Commercial Ready  
 
 > **斗地主比赛场 + 癞子斗地主 + 经典斗地主 + 英雄斗地主 + 百人牛牛 + 飞禽走兽**
 
@@ -26,6 +28,64 @@
 ✅ 聊天系统 ✅ 好友系统 ✅ 分享功能
 
 
+
+
+---
+
+## 🧠 项目定位 / 專案定位 / Project Overview
+
+本项目是一套完整的棋牌游戏平台源码  
+本專案是一套完整的棋牌遊戲平台原始碼  
+This is a full-featured multiplayer card game platform  
+
+包含多种热门玩法：  
+Including multiple popular game modes:
+
+- 斗地主 / Landlord (Dou Dizhu)  
+- 百人牛牛 / Niuniu  
+- 飞禽走兽 / Birds & Beasts  
+
+👉 支持商业化运营  
+👉 Ready for commercial deployment  
+
+---
+
+## ⚙️ 功能特点 / 技術特點 / Features
+
+- 实时多人对战 / Real-time multiplayer  
+- 多游戏合集平台 / Multi-game platform  
+- 高性能服务器架构 / High-performance server  
+- 支持俱乐部系统 / Club system support  
+- 可扩展玩法 / Extendable game modes  
+
+---
+
+## 🏆 使用场景 / 使用場景 / Use Cases
+
+- 棋牌游戏平台  
+- 游戏APP开发  
+- 棋牌游戏俱乐部  
+- 社交娱乐系统  
+
+---
+
+## 📊 示例玩法 / Example Games
+
+- 斗地主比赛场  
+- 经典斗地主  
+- 癞子斗地主  
+- 百人牛牛  
+- 飞禽走兽  
+
+---
+
+## 🚀 Quick Start
+
+```bash
+git clone https://github.com/your-repo  
+cd server  
+npm install  
+npm run start  
 ## 📸 游戏界面
 
 | 游戏大厅 | 斗地主牌桌 | 牛牛界面 |
